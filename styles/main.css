@@ -1,0 +1,114 @@
+main {
+  margin-top: 20vh;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro {
+  width: 25vw;
+}
+
+.intro > h1 {
+  margin-bottom: 41px;
+}
+
+.intro > p {
+  margin-bottom: 48px;
+}
+
+.intro > a {
+  font-weight: 600;
+}
+
+#right-arrow-icon {
+  vertical-align: middle;
+}
+
+.overview {
+  position: relative;
+  width: 40vw;
+}
+
+.overview > img {
+  width: 100%;
+}
+
+article {
+  position: absolute;
+  margin-top: -85px;
+  right: 32px;
+  width: 22rem;
+  padding: 16px 31px;
+  background: #181719;
+}
+
+article > h2 {
+  margin-top: 30px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  padding-left: 70px;
+}
+
+.author > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.author small {
+  color: #828282;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    flex-direction: column;
+    margin-top: 3vh;
+  }
+
+  .intro {
+    width: 75vw;
+  }
+
+  .intro > p {
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
+
+  .overview {
+    margin-top: 30px;
+    width: auto;
+  }
+
+  .overview > img {
+    width: 100%;
+  }
+
+  article {
+    margin-top: -55px;
+    width: 15rem;
+    right: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .author {
+    padding-left: 65px;
+  }
+
+  .author span {
+    font-size: 12px;
+  }
+
+  .author small {
+    font-size: 10px;
+  }
+}

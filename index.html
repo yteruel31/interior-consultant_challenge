@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+    <meta name="language" content="en" />
+    <meta name="author" content="yteruel.fr" />
+    <title>Interior consultant</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="navigation-over">
+        <a class="close-btn" onclick="closeNavigation()">
+            <span class="material-icons">
+                close
+            </span>
+        </a>
+        <nav>
+            <a class="selected-text">Home</a>
+            <a>Collection</a>
+            <a>About</a>
+            <a>Contact</a>
+        </nav>
+    </div>
+    <header>
+        <a class="home-img">THIS INTERIOR</a>
+        <a class="hamburger-btn" onclick="showNavigation()">
+            <span class="material-icons">
+                dehaze
+            </span>
+        </a>
+        <nav>
+            <a class="selected-text">Home</a>
+            <a>Collection</a>
+            <a>About</a>
+            <a>Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <h1>Modern interior</h1>
+            <p>
+                A full-Service residential & commercial interior design and staging
+                company offering professional organizing & eco-services.
+            </p>
+            <a>Read more
+                <span id="right-arrow-icon" class="material-icons">arrow_right_alt</span></a>
+        </div>
+        <div class="overview">
+            <img src="assets/photo1.png" />
+            <article>
+                <div class="author">
+                    <img src="assets/photo2.png" />
+                    <div>
+                        <span>Aliza Webber</span>
+                        <br />
+                        <small>Interior designer</small>
+                    </div>
+                </div>
+                <h2>Designed in 2020 by <br />Aliza Webber</h2>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <span><a href="https://yteruel.fr/">Yoann TERUEL</a> @
+            <a href="https://devchallenges.io/">DevChallenges.io</a></span>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+footer {
+  text-align: center;
+  flex-shrink: 0;
+  padding: 46px 0;
+  margin-top: 15vh;
+}
+
+footer * {
+  color: #a9a9a9;
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 24px 0;
+  }
+}
